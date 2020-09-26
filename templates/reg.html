@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--    <link rel="stylesheet" href="/static/css/styles.css">-->
+    <link rel="stylesheet" href="{{static/css/style.css}}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+     <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <title>Reg</title>
+</head>
+<body>
+    <h4>Welcome to registration </h4>
+
+     <div class="leftHalf">
+           <img src="https://www.marketing-eficaz.net/wp-content/uploads/2016/02/Online-Sites-for-Book-Reading.jpg" class="d-block w-80 h-80" alt="..." height="100"/>
+     </div>
+
+     <div class="rightHalf">
+<!--      <section class="Form my-4 mx-5">-->
+<!--      <div class="container">-->
+<!--&lt;!&ndash;        <div class="row no-gutters">&ndash;&gt;-->
+<!--&lt;!&ndash;          <div class="col-lg-5">&ndash;&gt;-->
+<!--&lt;!&ndash;            <img src="css/Logo.png" class="img-fluid" alt="">&ndash;&gt;-->
+<!--         </div>-->
+          <div class="col-lg-7 px-5 pt-3">
+            <h1 class="font-weight-bold py-3">Register</h1>
+            <form class="" action="{{url_for('registration') }}" method="post">
+              <div class="form-row">
+                <div class="col-lg-7">
+                  <input type="text" name="Name" id="Name" placeholder="Name" class="form-control my-2 p-3">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-lg-7">
+                  <input type="text" name="UserName" id="UserName" placeholder="UserName" class="form-control my-2 p-3">
+                </div>
+              </div>
+              <!-- <div class="form-row">
+                <div class="col-lg-7">
+                  <input type="radio" id="male" name="gender" value="male">
+                  <label for="male">Male</label>
+                  <input type="radio" id="female" name="gender" value="female">
+                  <label for="female">Female</label>
+                </div>
+              </div> -->
+              <div class="form-row">
+                <div class="col-lg-7">
+                  <input type="email" name="Email" id="Email" placeholder="Email" class="form-control my-2 p-3">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-lg-7">
+                  <input type="password" name="Password" id="Password" placeholder="Password" class="form-control my-2 p-3">
+                </div>
+              </div>
+              <!-- <div class="form-row">
+                <div class="col-lg-7">
+                  <input type="password" placeholder="Retype-Password" class="form-control my-2 p-3">
+                </div>
+              </div> -->
+
+              <div class="form-row">
+                <div class="col-lg-7">
+                  <button type="submit" class="btn1 mt-2 mb-3">SignIn</button>
+                </div>
+              </div>
+
+              <p>Have an account? <a href="login.html">Login</a></p>
+
+            </form>
+          </div>
+    </div>
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

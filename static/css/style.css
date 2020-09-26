@@ -1,0 +1,32 @@
+
+
+.*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ay{
+    text-color:lightblue;
+    background:lightgrey;
+}
+#myheader {
+    background-color:lightred ;
+    color:black;
+    text-align:center;
+    padding: 40px;
+    font-size: 20px;
+}
+.leftHalf {
+   background: url(bg-1.jpg);
+   width: 50%;
+   position: absolute;
+   left: 0px;
+   height: 100%;
+}
+
+.rightHalf {
+    width: 50%;
+   position: absolute;
+   right: 0px;
+   height: 100%;
+}
